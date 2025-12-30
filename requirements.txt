@@ -1,0 +1,11 @@
+# No external dependencies required
+# This project uses only Python standard library modules:
+# - json (for JSON handling)
+# - csv (for CSV export)
+# - argparse (for command-line interface)
+# - datetime (for date handling)
+# - typing (for type hints)
+# - os (for file operations)
+# - random (for potential future randomization features)
+
+# Python 3.6+ is required
