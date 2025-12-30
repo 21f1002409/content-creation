@@ -1,0 +1,48 @@
+{
+  "series_overview": {
+    "niche_topic": "Productivity & Self-Improvement",
+    "format": "Blog Posts",
+    "duration_length": "1200-1500 words",
+    "style": "Conversational yet authoritative, actionable advice, personal anecdotes",
+    "target_audience": "Ambitious professionals 25-40, entrepreneurs, self-improvement enthusiasts",
+    "publishing_schedule": "Daily for 365 days"
+  },
+  "content_themes": [
+    "Time Management",
+    "Morning Routines",
+    "Goal Setting",
+    "Mental Health",
+    "Career Growth",
+    "Habit Formation",
+    "Work-Life Balance"
+  ],
+  "content_hooks": [
+    "Ultimate guide to",
+    "Science-backed",
+    "How I",
+    "Case study",
+    "Common mistakes in",
+    "Step-by-step",
+    "Why successful people",
+    "The truth about",
+    "Beginner's guide to",
+    "Advanced strategies for"
+  ],
+  "seed_ideas": [
+    "Day 1: The Ultimate Guide to Building a Morning Routine That Sticks",
+    "Day 2: 10 Science-Backed Productivity Hacks That Actually Work",
+    "Day 3: How I Went From Overwhelmed to Organized in 30 Days",
+    "Day 4: The Pomodoro Technique: A Complete Beginner's Guide",
+    "Day 5: Why Your To-Do List Isn't Working (And What to Do Instead)",
+    "Day 6: Time Blocking 101: How to Plan Your Perfect Day",
+    "Day 7: Weekly Review: The One Habit That Changed My Productivity",
+    "Day 8: The 2-Minute Rule: How Small Actions Lead to Big Results",
+    "Day 9: Digital Minimalism: Decluttering Your Digital Life",
+    "Day 10: How to Wake Up Early Without Feeling Miserable",
+    "Day 11: The Science of Habit Formation: Breaking Bad Habits for Good",
+    "Day 12: 5 Productivity Apps That Are Actually Worth Your Time",
+    "Day 13: Deep Work: How to Focus in a Distracted World",
+    "Day 14: My Evening Routine for Better Sleep and Productivity",
+    "Day 15: Goal Setting That Works: The SMART Framework Explained"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "series_overview": {
+    "niche_topic": "True Crime Stories",
+    "format": "Podcast Episodes",
+    "duration_length": "30-45 minutes",
+    "style": "Narrative storytelling, serious yet engaging, well-researched with interviews",
+    "target_audience": "True crime enthusiasts 25-50, podcast listeners, mystery lovers",
+    "publishing_schedule": "Daily for 365 days"
+  },
+  "content_themes": [
+    "Unsolved Mysteries",
+    "Cold Cases Reopened",
+    "White Collar Crime",
+    "Serial Killers",
+    "Wrongful Convictions",
+    "Forensic Breakthroughs",
+    "Local Crime Stories"
+  ],
+  "content_hooks": [
+    "The mysterious case of",
+    "What really happened to",
+    "The untold story of",
+    "Cold case update",
+    "Breaking news",
+    "Interview with",
+    "Deep dive into",
+    "The disappearance of",
+    "Justice delayed",
+    "New evidence in"
+  ],
+  "seed_ideas": [
+    "Day 1: Introduction to the series - Why true crime matters",
+    "Day 2: The Mysterious Disappearance of Flight MH370",
+    "Day 3: The Golden State Killer - How DNA Genealogy Solved a 40-Year Case",
+    "Day 4: Interview: Retired Detective Shares Cold Case Secrets",
+    "Day 5: The Zodiac Killer - America's Most Elusive Serial Killer",
+    "Day 6: What Really Happened to JonBenét Ramsey?",
+    "Day 7: Weekly Roundup - True Crime News This Week",
+    "Day 8: The Enron Scandal - White Collar Crime Exposed",
+    "Day 9: Cold Case Update: New Leads in the 1995 Missing Person Case",
+    "Day 10: Forensic Science Breakthrough - How Touch DNA Changed Everything",
+    "Day 11: The Innocence Project - Fighting Wrongful Convictions",
+    "Day 12: The Unabomber - A Psychological Profile",
+    "Day 13: Listener Stories - Your Local Mysteries",
+    "Day 14: The Black Dahlia Murder - Hollywood's Darkest Mystery",
+    "Day 15: How Modern Technology is Solving Decades-Old Cases"
+  ]
+}

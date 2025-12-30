@@ -1,0 +1,38 @@
+{
+  "series_overview": {
+    "niche_topic": "[NICHE/TOPIC - e.g., Personal Finance, Cooking, Fitness]",
+    "format": "[Video format - e.g., YouTube Shorts, TikTok, Instagram Reels, Blog posts, Podcasts]",
+    "duration_length": "[e.g., 60 seconds, 10 minutes, 1500 words]",
+    "style": "[e.g., comedic and educational, serious documentary, conversational]",
+    "target_audience": "[demographic and psychographic details]",
+    "publishing_schedule": "Daily for 365 days"
+  },
+  "content_themes": [
+    "Theme 1: [Description]",
+    "Theme 2: [Description]",
+    "Theme 3: [Description]",
+    "Theme 4: [Description]",
+    "Theme 5: [Description]",
+    "Theme 6: [Description]",
+    "Theme 7: [Description]"
+  ],
+  "content_hooks": [
+    "Top 5",
+    "Did you know",
+    "How to",
+    "Myth vs Fact",
+    "Behind the scenes",
+    "Quick tip",
+    "Common mistakes",
+    "Expert advice",
+    "Beginner's guide to",
+    "Advanced technique"
+  ],
+  "seed_ideas": [
+    "Day 1: Introduction to [topic]",
+    "Day 2: Why [topic] matters",
+    "Day 3: Getting started with [topic]",
+    "Day 4: Common misconceptions about [topic]",
+    "Day 5: Essential tools for [topic]"
+  ]
+}
