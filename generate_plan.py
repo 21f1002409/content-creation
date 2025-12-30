@@ -9,7 +9,6 @@ a configuration file specifying the series details.
 import json
 import csv
 import argparse
-import random
 from datetime import datetime, timedelta
 from typing import Dict, List, Any
 import os
@@ -29,15 +28,21 @@ class ContentPlanGenerator:
     def generate_daily_content(self, day_number: int, date: datetime) -> Dict[str, Any]:
         """Generate content plan for a specific day."""
         # Cycle through themes
-        theme_index = (day_number - 1) % len(self.content_themes) if self.content_themes else 0
-        theme = self.content_themes[theme_index] if self.content_themes else "General"
+        if self.content_themes and len(self.content_themes) > 0:
+            theme_index = (day_number - 1) % len(self.content_themes)
+            theme = self.content_themes[theme_index]
+        else:
+            theme = "General"
         
         # Generate title/topic based on seed ideas and day
         if self.seed_ideas and day_number <= len(self.seed_ideas):
             topic = self.seed_ideas[day_number - 1]
         else:
             # Generate based on theme and hooks
-            hook = self.content_hooks[(day_number - 1) % len(self.content_hooks)] if self.content_hooks else ""
+            if self.content_hooks and len(self.content_hooks) > 0:
+                hook = self.content_hooks[(day_number - 1) % len(self.content_hooks)]
+            else:
+                hook = ""
             topic = f"{hook} {theme}".strip()
         
         content = {
@@ -52,11 +57,11 @@ class ContentPlanGenerator:
             'target_audience': self.series_overview.get('target_audience', ''),
         }
         
-        # Add optional production notes
-        if day_number % 7 == 0:
-            content['notes'] = 'Weekly recap/review day'
-        elif day_number % 30 == 0:
+        # Add optional production notes (check monthly first as it's more specific)
+        if day_number % 30 == 0:
             content['notes'] = 'Monthly milestone - consider special content'
+        elif day_number % 7 == 0:
+            content['notes'] = 'Weekly recap/review day'
         else:
             content['notes'] = ''
             
