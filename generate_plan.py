@@ -28,7 +28,7 @@ class ContentPlanGenerator:
     def generate_daily_content(self, day_number: int, date: datetime) -> Dict[str, Any]:
         """Generate content plan for a specific day."""
         # Cycle through themes
-        if self.content_themes and len(self.content_themes) > 0:
+        if self.content_themes:
             theme_index = (day_number - 1) % len(self.content_themes)
             theme = self.content_themes[theme_index]
         else:
@@ -39,7 +39,7 @@ class ContentPlanGenerator:
             topic = self.seed_ideas[day_number - 1]
         else:
             # Generate based on theme and hooks
-            if self.content_hooks and len(self.content_hooks) > 0:
+            if self.content_hooks:
                 hook = self.content_hooks[(day_number - 1) % len(self.content_hooks)]
             else:
                 hook = ""
