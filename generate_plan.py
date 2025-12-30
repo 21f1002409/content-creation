@@ -35,8 +35,9 @@ class ContentPlanGenerator:
             theme = "General"
         
         # Generate title/topic based on seed ideas and day
+        # Note: day_number is 1-based (starts at 1, not 0)
         if self.seed_ideas and day_number <= len(self.seed_ideas):
-            topic = self.seed_ideas[day_number - 1]
+            topic = self.seed_ideas[day_number - 1]  # Convert to 0-based index
         else:
             # Generate based on theme and hooks
             if self.content_hooks:
@@ -58,6 +59,7 @@ class ContentPlanGenerator:
         }
         
         # Add optional production notes (check monthly first as it's more specific)
+        # Note: Using 30-day cycles (not calendar months) for consistent production milestones
         if day_number % 30 == 0:
             content['notes'] = 'Monthly milestone - consider special content'
         elif day_number % 7 == 0:
